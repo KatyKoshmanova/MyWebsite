@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Resume</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/api.css">
+</head>
+
+<body>
+<div class="wrapper">
+    <nav class="navigation">
+        <a href="#about">About Me</a>
+        <a href="#portfolio">My Achievements</a>
+        <a href="#api">Random Fact About Numbers</a>
+    </nav>
+</div>
+<div class="wrapper">
+    <table class="about_table">
+        <tr>
+            <td class="left_column">
+                <div class="column_wrapper">
+                    <p>Ekaterina</p>
+                    <p>Koshmanova</p>
+                    <div class="socials">
+                        <a href="https://www.instagram.com/k.koshmann" target="_blank" class="icon"><img
+                                src="img/instagramIcon.png" alt="inst" height=50></a>
+                        <a href="https://tlgg.ru/k_koshmann" target="_blank" class="icon"><img
+                                src="img/telegramIcon.png"
+                                alt="telegram" height="50"> </a>
+                        <a href="mailto:katykosh@yandex.ru" target="_blank" class="icon"><img src="img/emailIcon.png"
+                                                                                              alt="gmail"
+                                                                                              height="50"> </a>
+                    </div>
+                </div>
+            </td>
+            <td class="middle_column"></td>
+            <td class="right_column"><img src="img/photo.jpg" alt="my photo" height=250></td>
+        </tr>
+    </table>
+</div>
+
+<div class="wrapper" id="about">
+    <div class="about_me">
+        <h2 class="about_title">About Me</h2>
+        <p class="about_text">My name is Katusha and I am 18 years old. I love making incredible things.</p>
+    </div>
+</div>
+
+<div class="wrapper" id="portfolio">
+    <div class="portfolio">
+        <h2 class="portfolio_title">My Achievements</h2>
+        <p class="portfolio_text">I can eat whole watermelon at once!</p>
+    </div>
+</div>
+<div class="wrapper" id="api">
+    <div class="api">
+        <h2 class="api_title">Random Fact About Numbers</h2>
+        <p class="api_text" id="api_text"></p>
+        <div class="button_wrapper">
+            <button class="api_button" id="get_fact_btn">Get Fact!</button>
+        </div>
+    </div>
+</div>
+
+<script src="./bundle.js"></script>
+</body>
+
+</html>
