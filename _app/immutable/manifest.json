@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-940e3e4b.js",
+    "file": "start-b312a895.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -33,7 +33,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-13442e17.js",
+    "file": "pages/index.svelte-f09d0bb8.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -42,19 +42,20 @@
       "_paths-396f020f.js"
     ],
     "css": [
-      "assets/pages/index.svelte-635ce92a.css"
+      "assets/pages/index.svelte-e0e3fbb6.css"
     ]
   },
   "src/routes/number-fact/index.svelte": {
-    "file": "pages/number-fact/index.svelte-af54796c.js",
+    "file": "pages/number-fact/index.svelte-150ff9eb.js",
     "src": "src/routes/number-fact/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-0b8a7a3e.js"
+      "_index-0b8a7a3e.js",
+      "_paths-396f020f.js"
     ],
     "css": [
-      "assets/pages/number-fact/index.svelte-e6f97e85.css"
+      "assets/pages/number-fact/index.svelte-ec30df70.css"
     ]
   },
   "_index-0b8a7a3e.js": {
