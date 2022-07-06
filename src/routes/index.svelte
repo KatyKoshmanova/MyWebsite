@@ -1,12 +1,12 @@
 <script lang="ts">
-    import Navigation from "../lib/api_page/Navigation.svelte";
     import Intro from "../lib/main_page/Intro.svelte";
     import About from "../lib/main_page/About.svelte";
     import Portfolio from "../lib/main_page/Portfolio.svelte";
+    import MainNavigation from "../lib/main_page/MainNavigation.svelte";
 </script>
 
 <main>
-    <Navigation/>
+    <MainNavigation/>
     <Intro/>
     <About/>
     <Portfolio/>

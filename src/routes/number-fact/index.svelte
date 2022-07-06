@@ -3,6 +3,8 @@
 </script>
 
 <script lang="ts">
+    import ApiNavigation from "../../lib/api_page/ApiNavigation.svelte";
+
     let fact: string;
 
     function fetchSomeFact() {
@@ -18,6 +20,8 @@
 </script>
 
 <div class="wrapper" id="api">
+    <ApiNavigation/>
+
     <div class="api">
         <h2>Random Fact About Numbers</h2>
         <p>{fact || ""}</p>
